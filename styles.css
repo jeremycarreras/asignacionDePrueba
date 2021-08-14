@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main{
+    margin: 0 7.8%;
+}
+
+/*Barra de menu*/
+menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    font-size: 12px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.logo{
+    width: 115px;
+}
+
+.ladoIzq{
+    display: flex;
+}
+
+.ladoDer{
+    display: flex;
+}
+
+.ladoIzq a{
+    margin: auto 20px auto 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.ladoDer a{
+    margin: auto 4px auto 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.hover-li{
+    border-bottom: 2px #fff solid;
+}
+
+.hover-li:hover{
+    border-bottom: 2px #000 solid;
+}
+
+.menu-items{
+    display: flex;
+}
+
+.menu-items p{
+    border-bottom: 2px #fff solid;
+}
+
+.menu-items p:hover{
+    border-bottom: 2px #000 solid;
+}
+
+/*Cada icono es de diferente tamaño*/
+.flecha{
+    width: 10px;
+    height: 10px;
+    padding: 15px 7px;
+}
+
+.lupa{
+    width: 14px;
+    height: 14px;
+    padding: 12px 7px;
+}
+
+.carrito{
+    width: 18px;
+    height: 18px;
+    padding: 11px 6px;
+}
+
+.usuario{
+    width: 30px;
+    height: 30px;
+    padding: 5px 8px;
+    margin: 0;
+
+}
+
+section{
+    margin-bottom: 35px;
+}
+
+.carrusel{
+    width: auto;
+    height: 540px;
+    border: black solid;
+}
+
+.icons{
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon-text{
+    text-align: center;
+    margin: auto 14px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.icon-text:hover{
+    text-decoration: underline;
+}
+
+.icon-text p{
+    margin: 0;
+    width: 120px;
+}
+
+.icono{
+    width: 40px;
+    height: 40px;
+}
+
+.cards1{
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards1 a{
+    width: 340px;
+    text-decoration: none;
+    color: #000;
+}
+
+.cards1 a h3{
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.cards1 a p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.cards1 a img{
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.actualizacion{
+    width: auto;
+    height: 540px;
+    border: black solid;
+}
+
+.cajas2{
+    width: auto;
+    height: 330px;
+    border: black solid;
+}
+
+.covid{
+    width: auto;
+    height: 130px;
+    border: black solid;
+    background-color: #e6e6e6;
+}
+
+.redes{
+    width: auto;
+    height: 100px;
+    border: black solid;
+}
+
+footer{
+    width: auto;
+    height: 330px;
+    background-color: #f2f2f2;
+
+}
