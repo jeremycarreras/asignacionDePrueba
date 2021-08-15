@@ -92,6 +92,10 @@ section{
     margin-bottom: 35px;
 }
 
+section h2{
+    font-weight: 600;
+}
+
 .carrusel{
     width: auto;
     height: 540px;
@@ -131,13 +135,13 @@ section{
 
 .cards1{
     width: auto;
-    height: 350px;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .cards1 a{
-    width: 340px;
+    width: 23.6%;
     text-decoration: none;
     color: #000;
 }
@@ -151,7 +155,7 @@ section{
     font-size: 14px;
     margin: 0;
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .cards1 a img{
@@ -159,34 +163,149 @@ section{
     margin-bottom: 10px;
 }
 
+.cards1 a h4{
+    margin: 10px 0;
+    font-weight: 500;
+    font-size: 14.5px;
+    color: #0067b8;
+    border: #fff solid;
+    width: fit-content;
+}
+
+.cards1 a h4:hover{
+    border-bottom: 2px #0067b8 solid;
+}
+
 .actualizacion{
     width: auto;
     height: 540px;
     border: black solid;
+    position: relative;
 }
 
-.cajas2{
-    width: auto;
-    height: 330px;
-    border: black solid;
+.info-act{
+    width: 500px;
+    position: absolute;
+    bottom: 35%;
+    right: 5%;
+}
+
+.info-act h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.info-act p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.info-act a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 28px;
+    background-color: #000;
 }
 
 .covid{
     width: auto;
     height: 130px;
-    border: black solid;
     background-color: #e6e6e6;
+    text-align: center;
+}
+
+.covid h1{
+    font-size: 31px;
+    font-weight: 500;
+    margin: 0;
+    padding: 8px;
+}
+
+.covid p{
+    font-size: 14px;
+    padding: 7px;
+    margin: 0;
+}
+
+.covid a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    border-bottom: #e6e6e6 solid;
+}
+
+.covid a:hover{
+    border-bottom: 2px #000 solid;
 }
 
 .redes{
     width: auto;
     height: 100px;
-    border: black solid;
+    display: flex;
+}
+
+.redes p{
+    padding: 1.6% .5%;
+}
+
+.redes a img{
+    width: 30px;
+    padding: 90% 30%;
+    margin-right: 10px;
 }
 
 footer{
     width: auto;
     height: 330px;
     background-color: #f2f2f2;
+    justify-content: space-between;
+}
 
+.contenedor-footer{
+    margin: 0 7.8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-footer a{
+    font-size: 11px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.contenedor-footer a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.columna br{
+    font-size: 30px;
+}
+
+.contenedor-footer h5{
+    font-size: 15px;
+    color: #616161;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.li{
+    font-size: 11px;
+    color: #616161;
+    margin-left: 20px;
+}
+
+.ld a{
+    margin-left: 10px;
+    margin-inline-end: 20px;
 }
