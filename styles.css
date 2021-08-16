@@ -1,311 +1,329 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.main{
-    margin: 0 7.8%;
+.main {
+  margin: 0 7.8%;
 }
 
 /*Barra de menu*/
-menu{
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    font-size: 12px;
-    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-size: 12px;
+  font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.logo{
-    width: 115px;
+.logo {
+  width: 115px;
 }
 
-.ladoIzq{
-    display: flex;
+.ladoIzq {
+  display: flex;
 }
 
-.ladoDer{
-    display: flex;
+.ladoDer {
+  display: flex;
 }
 
-.ladoIzq a{
-    margin: auto 20px auto 5px;
-    text-decoration: none;
-    color: #000;
+.ladoIzq a {
+  margin: auto 20px auto 5px;
+  text-decoration: none;
+  color: #000;
 }
 
-.ladoDer a{
-    margin: auto 4px auto 20px;
-    text-decoration: none;
-    color: #000;
+.ladoDer a {
+  margin: auto 4px auto 20px;
+  text-decoration: none;
+  color: #000;
 }
 
-.hover-li{
-    border-bottom: 2px #fff solid;
+.hover-li {
+  border-bottom: 2px #fff solid;
 }
 
-.hover-li:hover{
-    border-bottom: 2px #000 solid;
+.hover-li:hover {
+  border-bottom: 2px #000 solid;
 }
 
-.menu-items{
-    display: flex;
+.menu-items {
+  display: flex;
 }
 
-.menu-items p{
-    border-bottom: 2px #fff solid;
+.menu-items p {
+  border-bottom: 2px #fff solid;
 }
 
-.menu-items p:hover{
-    border-bottom: 2px #000 solid;
+.menu-items p:hover {
+  border-bottom: 2px #000 solid;
 }
 
 /*Cada icono es de diferente tamaño*/
-.flecha{
-    width: 10px;
-    height: 10px;
-    padding: 15px 7px;
+.flecha {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
 }
 
-.lupa{
-    width: 14px;
-    height: 14px;
-    padding: 12px 7px;
+.lupa {
+  width: 14px;
+  height: 14px;
+  margin: 2px 5px;
 }
 
-.carrito{
-    width: 18px;
-    height: 18px;
-    padding: 11px 6px;
+.carrito {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
 }
 
-.usuario{
-    width: 30px;
-    height: 30px;
-    padding: 5px 8px;
-    margin: 0;
-
+.usuario {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
 }
 
-section{
-    margin-bottom: 35px;
+section {
+  margin-bottom: 35px;
 }
 
-section h2{
-    font-weight: 600;
+section h2 {
+  font-weight: 600;
 }
 
-.carrusel{
-    width: auto;
-    height: 540px;
-    border: black solid;
+.carrusel {
+  width: auto;
+  height: auto;
 }
 
-.icons{
-    width: auto;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 500;
+.texto-carrusel1{
+  height: 540px;
+  background-image: url("https://venus.acatlan.unam.mx/retos/imagenes/carrusel_1.jpeg");
 }
 
-.icon-text{
-    text-align: center;
-    margin: auto 14px;
-    text-decoration: none;
-    color: #000;
-    padding: 10px;
+.texto-carrusel2{
+  height: 540px;
+  background-image: url("https://venus.acatlan.unam.mx/retos/imagenes/carrusel_2.jpeg");
 }
 
-.icon-text:hover{
-    text-decoration: underline;
+.texto2{
+  padding: 5%;
+  width: 40%;
 }
 
-.icon-text p{
-    margin: 0;
-    width: 120px;
+.icons {
+  width: auto;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.icono{
-    width: 40px;
-    height: 40px;
+.icon-text {
+  text-align: center;
+  margin: auto 14px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
 }
 
-.cards1{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+.icon-text:hover {
+  text-decoration: underline;
 }
 
-.cards1 a{
-    width: 23.6%;
-    text-decoration: none;
-    color: #000;
+.icon-text p {
+  margin: 0;
+  width: 120px;
 }
 
-.cards1 a h3{
-    font-weight: 600;
-    margin-bottom: 3px;
+.icono {
+  width: 40px;
+  height: 40px;
 }
 
-.cards1 a p{
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 0;
+.cards1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.cards1 a img{
-    width: 190px;
-    margin-bottom: 10px;
+.cards1 a {
+  width: 23.6%;
+  text-decoration: none;
+  color: #000;
 }
 
-.cards1 a h4{
-    margin: 10px 0;
-    font-weight: 500;
-    font-size: 14.5px;
-    color: #0067b8;
-    border: #fff solid;
-    width: fit-content;
+.cards1 a h3 {
+  font-weight: 600;
+  margin-bottom: 3px;
 }
 
-.cards1 a h4:hover{
-    border-bottom: 2px #0067b8 solid;
+.cards1 a p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-.actualizacion{
-    width: auto;
-    height: 540px;
-    border: black solid;
-    position: relative;
+.cards1 a img {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-.info-act{
-    width: 500px;
-    position: absolute;
-    bottom: 35%;
-    right: 5%;
+.cards1 a h4 {
+  margin: 10px 0;
+  font-weight: 500;
+  font-size: 14.5px;
+  color: #0067b8;
+  border: #fff solid;
+  width: fit-content;
 }
 
-.info-act h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 8px;
+.cards1 a h4:hover {
+  border-bottom: 2px #0067b8 solid;
 }
 
-.info-act p{
-    font-size: 14px;
-    margin-bottom: 20px;
+.actualizacion {
+  width: auto;
+  height: 540px;
+  background-image: url("https://venus.acatlan.unam.mx/retos/imagenes/carrusel_2.jpeg");
+  
+  position: relative;
 }
 
-.info-act a{
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 8px 28px;
-    background-color: #000;
+.info-act {
+  width: 500px;
+  position: absolute;
+  bottom: 35%;
+  right: 5%;
 }
 
-.covid{
-    width: auto;
-    height: 130px;
-    background-color: #e6e6e6;
-    text-align: center;
+.info-act h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
-.covid h1{
-    font-size: 31px;
-    font-weight: 500;
-    margin: 0;
-    padding: 8px;
+.info-act p {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
-.covid p{
-    font-size: 14px;
-    padding: 7px;
-    margin: 0;
+.boton{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 28px;
+  background-color: #000;
 }
 
-.covid a{
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #000;
-    border-bottom: #e6e6e6 solid;
+.boton:hover{
+  text-decoration: none;
+  color: #fff;
 }
 
-.covid a:hover{
-    border-bottom: 2px #000 solid;
+.covid {
+  width: auto;
+  height: 130px;
+  background-color: #e6e6e6;
+  text-align: center;
 }
 
-.redes{
-    width: auto;
-    height: 100px;
-    display: flex;
+.covid h1 {
+  font-size: 31px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px;
 }
 
-.redes p{
-    padding: 1.6% .5%;
+.covid p {
+  font-size: 14px;
+  padding: 7px;
+  margin: 0;
 }
 
-.redes a img{
-    width: 30px;
-    padding: 90% 30%;
-    margin-right: 10px;
+.covid a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  border-bottom: #e6e6e6 solid;
 }
 
-footer{
-    width: auto;
-    height: 330px;
-    background-color: #f2f2f2;
-    justify-content: space-between;
+.covid a:hover {
+  border-bottom: 2px #000 solid;
 }
 
-.contenedor-footer{
-    margin: 0 7.8%;
-    display: flex;
-    justify-content: space-around;
+.redes {
+  width: auto;
+  height: 100px;
+  display: flex;
 }
 
-.contenedor-footer a{
-    font-size: 11px;
-    color: #616161;
-    text-decoration: none;
+.redes p {
+  padding: 1.6% 0.5%;
 }
 
-.contenedor-footer a:hover{
-    text-decoration: underline;
-    color: #000;
+.redes a img {
+  width: 40px;
+  margin: 15px 0;
+  margin-right: 10px;
 }
 
-.columna br{
-    font-size: 30px;
+footer {
+  width: auto;
+  height: 330px;
+  background-color: #f2f2f2;
+  justify-content: space-between;
 }
 
-.contenedor-footer h5{
-    font-size: 15px;
-    color: #616161;
-    font-weight: 500;
-    margin: 15px 0;
+.contenedor-footer {
+  margin: 0 7.8%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.pie{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.contenedor-footer a {
+  font-size: 11px;
+  color: #616161;
+  text-decoration: none;
 }
 
-.li{
-    font-size: 11px;
-    color: #616161;
-    margin-left: 20px;
+.contenedor-footer a:hover {
+  text-decoration: underline;
+  color: #000;
 }
 
-.ld a{
-    margin-left: 10px;
-    margin-inline-end: 20px;
+.columna br {
+  font-size: 30px;
+}
+
+.contenedor-footer h5 {
+  font-size: 15px;
+  color: #616161;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.pie {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.li {
+  font-size: 11px;
+  color: #616161;
+  margin-left: 20px;
+}
+
+.ld a {
+  margin-left: 10px;
+  margin-inline-end: 20px;
 }
